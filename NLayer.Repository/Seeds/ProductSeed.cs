@@ -4,9 +4,9 @@ using NLayer.Core;
 
 namespace NLayer.Repository.Seeds
 {
-	internal class ProductSeed : IEntityTypeConfiguration<Category>
+	internal class ProductSeed : IEntityTypeConfiguration<Product>
 	{
-		public void Configure(EntityTypeBuilder<Category> builder)
+		public void Configure(EntityTypeBuilder<Product> builder)
 		{
 			builder.HasData(
 				new Product
