@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using NLayer.Core;
+using NLayer.Core.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace NLayer.Repository.Configurations
 {
-	internal class ProductConfiguration : IEntityTypeConfiguration<Product>
+    internal class ProductConfiguration : IEntityTypeConfiguration<Product>
 	{
 		//FluentValidation ile Entityler için gerekli validationları yazarız. 
 		public void Configure(EntityTypeBuilder<Product> builder)

@@ -1,10 +1,10 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using NLayer.Core;
+using NLayer.Core.Models;
 
 namespace NLayer.Repository.Seeds
 {
-	internal class ProductSeed : IEntityTypeConfiguration<Product>
+    internal class ProductSeed : IEntityTypeConfiguration<Product>
 	{
 		public void Configure(EntityTypeBuilder<Product> builder)
 		{

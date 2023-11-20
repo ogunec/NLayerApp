@@ -1,10 +1,10 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using NLayer.Core;
+using NLayer.Core.Models;
 
 namespace NLayer.Repository.Seeds
 {
-	internal class CategorySeed : IEntityTypeConfiguration<Category>
+    internal class CategorySeed : IEntityTypeConfiguration<Category>
 	{
 		public void Configure(EntityTypeBuilder<Category> builder)
 		{
