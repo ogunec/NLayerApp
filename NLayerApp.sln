@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NLayer.Service", "NLayer.Se
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NLayer.API", "NLayer.API\NLayer.API.csproj", "{669C8F33-A420-46FE-B033-58FEB8EC5656}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLayer.Web", "NLayer.Web\NLayer.Web.csproj", "{1C866FCC-0E38-4C60-B06C-DCD721745ABB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NLayer.Web", "NLayer.Web\NLayer.Web.csproj", "{1C866FCC-0E38-4C60-B06C-DCD721745ABB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLayer.Caching", "NLayer.Caching\NLayer.Caching.csproj", "{24CF0E22-7041-4223-9E8D-19689B7FD117}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{1C866FCC-0E38-4C60-B06C-DCD721745ABB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C866FCC-0E38-4C60-B06C-DCD721745ABB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1C866FCC-0E38-4C60-B06C-DCD721745ABB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24CF0E22-7041-4223-9E8D-19689B7FD117}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24CF0E22-7041-4223-9E8D-19689B7FD117}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24CF0E22-7041-4223-9E8D-19689B7FD117}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24CF0E22-7041-4223-9E8D-19689B7FD117}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
